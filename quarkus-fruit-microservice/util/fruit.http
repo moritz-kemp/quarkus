@@ -1,0 +1,12 @@
+### GET fruits
+GET http://localhost:8080/fruits
+
+### Add fruit
+POST http://localhost:8080/fruits
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "Apple",
+  "description": "Red color"
+}
