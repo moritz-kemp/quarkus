@@ -1,8 +1,21 @@
-# code-with-quarkus
+# quarkus-fruit-microservice
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project is used to evaluate & learn Quarkus.
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+Features
+- [x] REST API
+- [x] Relational database connection
+- [x] JPA with Hibernate
+- [x] Kafka connector (consumer)
+- [ ] Kafka connector (producer)
+- [x] JSON Logging
+- [ ] Prometheus metrics
+- [ ] OpenTracing
+- [ ] Health check
+- [ ] Resilience (Circuit Breaker, Retry, Timeout)
+- [ ] Security (JWT, OAuth2)
+- [x] JUnit 5 Tests
+- [x] Integration Tests
 
 ## Running the application in dev mode
 
